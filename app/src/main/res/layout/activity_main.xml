@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <include android:id="@+id/actBar"
+        layout="@layout/action_bar"
+        >
+
+
+    </include>
+
+    <ImageButton
+        android:id="@+id/boton_liked"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@drawable/estrella"
+        android:elevation="6dp"
+        android:layout_marginLeft="360dp"
+        ></ImageButton>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actBar">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
+
+
